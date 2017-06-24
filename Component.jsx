@@ -6,11 +6,19 @@ module.exports = React.createClass({
     },
     render : function(){
         return (
-            <div>
-             <h1>yoyo</h1>
-             <p>yoo</p>
-             <button onclick={this._handleclick}>click me</button>
-            </div>
+            <html>
+              <head>
+                <title>LOST </title>
+                <link rel='stylesheet' href='/style.css' />
+             </head>
+             <body>
+                <div>
+                 <h1>yoyo</h1>
+                 <p>yoo</p>
+                 <button onclick={this._handleclick}>click me</button>
+                </div>
+             </body>
+            </html> 
             );
     }
 })
