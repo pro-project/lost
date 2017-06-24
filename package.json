@@ -9,6 +9,8 @@
   "author": "Dhrubesh",
   "license": "MIT",
   "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.24.1",
     "express": "^4.15.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
