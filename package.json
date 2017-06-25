@@ -9,10 +9,13 @@
   "author": "Dhrubesh",
   "license": "MIT",
   "dependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.24.1",
     "express": "^4.15.3",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "webpack": "^1.15.0"
   }
 }

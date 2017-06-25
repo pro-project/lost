@@ -9,8 +9,9 @@ var Component = require('./Component.jsx')
 
 app.use(express.static('public'));
 app.get('/', function (req, res) {
+  var props = {title : 'lol'};
   var test = ReactDOMServer.renderToString(
-      React.createElement(Component)
+      React.createElement(Component,props)
       );
   res.send(test)
 })
